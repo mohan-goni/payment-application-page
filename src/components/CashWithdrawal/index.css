@@ -1,0 +1,77 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  border-radius: 16px;
+  padding: 20px;
+  width: 380px;
+}
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.profile-img-container {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  background-color: #c7d2fe;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.profile-img {
+  font-family: 'Roboto';
+  color: #7c3aed;
+  font-size: 18px;
+}
+.user-name {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #d4d2db;
+  text-align: center;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.amount {
+  color: #c4c4c4;
+  font-size: 28px;
+  font-weight: 500;
+}
+.rupees-text {
+  color: #585076;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.withdraw-text {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #d4d2db;
+}
+.choose-sum-text {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.denomination-item-container {
+  padding-left: 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
