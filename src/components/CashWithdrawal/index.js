@@ -20,14 +20,16 @@ class CashWithdrawal extends Component {
   render() {
     const {amount} = this.state
     const {denominationsList} = this.props
+    const name = 'Sarah williams'
+    const profileImage = name.slice(0, 1)
     return (
       <div className="bg-container">
         <div className="card-container">
           <div className="profile-container">
             <div className="profile-img-container">
-              <p className="profile-img">s</p>
+              <p className="profile-img">{profileImage}</p>
             </div>
-            <p className="user-name">Sarah williams</p>
+            <p className="user-name">{name}</p>
           </div>
           <div className="balance-container">
             <p className="balance-text">Your Balance</p>
