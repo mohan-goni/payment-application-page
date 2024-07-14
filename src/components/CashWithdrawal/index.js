@@ -36,7 +36,7 @@ class CashWithdrawal extends Component {
               <p className="rupees-text">In Rupees</p>
             </div>
           </div>
-          <h1 className="withdraw-text">Withdraw</h1>
+          <p className="withdraw-text">Withdraw</p>
           <p className="choose-sum-text">CHOOSE SUM (IN RUPEES)</p>
           <ul className="denomination-item-container">
             {denominationsList.map(eachItem => (
